@@ -1,4 +1,6 @@
 //* The vending machine will accept valid coins (10p, 20p, 50p, etc) and reject invalid ones (1p, 2p).
+package coins;
+
 public enum CoinType {
 
     ONE(1),

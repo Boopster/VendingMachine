@@ -1,5 +1,7 @@
 //Create a Product abstract class which has name and brand.
 
+package products;
+
 public abstract class Product {
 
     private String name;

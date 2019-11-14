@@ -1,3 +1,5 @@
+package coins;
+
 public class Coin {
 
     private CoinType coin;
