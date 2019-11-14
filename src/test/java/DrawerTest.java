@@ -19,7 +19,7 @@ public class DrawerTest {
         drawer = new Drawer();
         sweet = new Sweet("Mars Bar","Mars");
         crisp = new Crisp("Salt and Vinegar", "Walkers");
-        drink = new Drink("Fanta", "The Coca-Cola Co")
+        drink = new Drink("Fanta", "The Coca-Cola Co");
     }
 
     @Test

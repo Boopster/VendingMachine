@@ -12,7 +12,7 @@ public class Coin {
         return this.coin;
     }
 
-    public int getValueFromEnum() {
+    public double getValueFromEnum() {
         return this.coin.getValue();
     }
 
