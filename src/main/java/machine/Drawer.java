@@ -42,4 +42,8 @@ public class Drawer {
         this.items.add(product);
     }
 
+    public void removeProduct() {
+        this.items.remove(0);
+    }
+
 }

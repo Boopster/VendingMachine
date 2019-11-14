@@ -23,4 +23,12 @@ public class DrawerTest {
         assertEquals(1, drawer.countProducts());
     }
 
+    @Test
+    public void canRemoveProductFromDrawer(){
+        drawer.addProduct(sweet);
+        drawer.addProduct(sweet);
+        drawer.removeProduct();
+        assertEquals(1, drawer.countProducts());
+    }
+
 }
