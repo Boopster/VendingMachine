@@ -10,4 +10,12 @@ public abstract class Product {
         this.brand = brand;
     }
 
+    public String getName() {
+        return this.name;
+    }
+
+    public String getBrand() {
+        return this.brand;
+    }
+
 }
