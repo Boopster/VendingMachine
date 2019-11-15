@@ -18,4 +18,12 @@ public class VendingMachine {
         this.coinReturn = new CoinReturn();
     }
 
+    public void addCoin(Coin coin) {
+        this.coins.add(coin);
+    }
+
+    public int countCoins() {
+        return this.coins.size();
+    }
+
 }
