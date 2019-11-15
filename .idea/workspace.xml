@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="249a6f13-f71a-4711-92f8-f0a6f5fe7e2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CoinReturnTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coins/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coins/Coin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coins/CoinType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coins/CoinType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/machine/CoinReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/machine/CoinReturn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DrawerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DrawerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="249a6f13-f71a-4711-92f8-f0a6f5fe7e2b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
