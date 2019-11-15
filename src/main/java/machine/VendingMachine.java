@@ -19,7 +19,9 @@ public class VendingMachine {
     }
 
     public void addCoin(Coin coin) {
-        this.coins.add(coin);
+        if (coin.getValueFromEnum() > 0.04) {
+            this.coins.add(coin);
+        }
     }
 
     public int countCoins() {
