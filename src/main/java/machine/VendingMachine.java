@@ -21,11 +21,17 @@ public class VendingMachine {
     public void addCoin(Coin coin) {
         if (coin.getValueFromEnum() > 0.04) {
             this.coins.add(coin);
+        } else {
+            this.coinReturn.addCoin(coin);
         }
     }
 
     public int countCoins() {
         return this.coins.size();
+    }
+
+    public double getTotalCoinReturn(){
+        return this.coinReturn.totalAmount();
     }
 
 }

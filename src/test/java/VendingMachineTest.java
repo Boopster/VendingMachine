@@ -38,4 +38,14 @@ public class VendingMachineTest {
         assertEquals(2,vendingMachine.countCoins());
     }
 
+    @Test
+    public void canAddInvalidCoinsToCoinReturn() {
+        vendingMachine.addCoin(coin1);
+        vendingMachine.addCoin(coin2);
+        vendingMachine.addCoin(coin3);
+        vendingMachine.addCoin(coin4);
+        assertEquals(2,vendingMachine.countCoins());
+        assertEquals(0.03,vendingMachine.getTotalCoinReturn(),0.1);
+    }
+
 }
